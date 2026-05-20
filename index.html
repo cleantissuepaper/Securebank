@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clean Tissue Paper | Professional Website</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<style>
+
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+/* HEADER */
+header{
+position:sticky;
+top:0;
+background:#0a6efd;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:12px 25px;
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+color:white;
+}
+
+.logo img{
+width:55px;
+height:55px;
+border-radius:50%;
+background:white;
+padding:4px;
+}
+
+nav a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+}
+
+nav a:hover{color:yellow;}
+
+/* HERO */
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1586075010923-2dd4570fb338');
+background-size:cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.btn{
+padding:12px 25px;
+background:#00c853;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* SECTION COMMON */
+section{
+padding:70px 20px;
+text-align:center;
+}
+
+h2{
+font-size:35px;
+margin-bottom:20px;
+color:#0a6efd;
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+/* CARD */
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+/* ABOUT */
+.about-box{
+max-width:900px;
+margin:auto;
+background:white;
+padding:25px;
+border-radius:12px;
+}
+
+/* SERVICES */
+.service{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+.contact-box{
+max-width:700px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:10px;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+/* FOOTER */
+footer{
+background:#0a6efd;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:white;
+font-size:30px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+<div class="logo">
+<img src="logo.png">
+<h3>Clean Tissue Paper</h3>
+</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#products">Products</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+<div>
+<h1>Premium Tissue Manufacturer</h1>
+<p>Soft • Hygienic • Eco-Friendly • Trusted Brand</p>
+<button class="btn">Explore More</button>
+</div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Us</h2>
+
+<div class="about-box">
+<p>
+Clean Tissue Paper is a professional tissue manufacturing company based in Maharashtra.
+We provide high quality tissue products for homes, hotels, hospitals, and industries.
+Our focus is hygiene, quality, and eco-friendly production.
+</p>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="grid">
+
+<div class="service">
+<h3>🏭 Manufacturing</h3>
+<p>High quality tissue paper production.</p>
+</div>
+
+<div class="service">
+<h3>🚚 Bulk Supply</h3>
+<p>Wholesale supply for hotels & industries.</p>
+</div>
+
+<div class="service">
+<h3>🏷️ Branding</h3>
+<p>Private label tissue branding service.</p>
+</div>
+
+</div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+<h2>Our Products</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f">
+<h3>Toilet Tissue - ₹120</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600857062241-98e5dba7f214">
+<h3>Kitchen Tissue - ₹150</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
+<h3>Facial Tissue - ₹100</h3>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+<h2>Industry Knowledge</h2>
+
+<div class="about-box">
+<p>
+✔ Tissue paper is used in hotels, hospitals, homes  
+✔ Demand is increasing in India rapidly  
+✔ Eco-friendly paper production is future of industry  
+✔ Quality raw material improves softness & strength  
+</p>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Us</h2>
+
+<div class="contact-box">
+
+<input placeholder="Your Name">
+<input placeholder="Mobile Number">
+<textarea placeholder="Message"></textarea>
+
+<button class="btn">Send Message</button>
+
+<p style="margin-top:15px;">
+📞 7498071940 <br>
+📧 cleantissuepaper@gmail.com <br>
+📍 Warudi, Jalna, Maharashtra
+</p>
+
+</div>
+</section>
+
+<!-- MAP -->
+<section>
+<h2>Our Location</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Warudi%20Badnapur%20Jalna&output=embed"
+width="100%" height="300" style="border:0;border-radius:10px;">
+</iframe>
+
+</section>
+
+<footer>
+© 2026 Clean Tissue Paper | Professional Website
+</footer>
+
+<!-- WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/917498071940" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
